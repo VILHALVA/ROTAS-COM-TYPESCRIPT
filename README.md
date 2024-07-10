@@ -41,11 +41,17 @@
    - Isso irá gerar um arquivo JavaScript correspondente com o mesmo nome (por exemplo, `APP.js`) no mesmo diretório.
 
 3. **Subindo o servidor:**
-   - Agora execute o seguinte comando para iniciar o aplicativo:
+   Agora execute o seguinte comando para compilar o TypeScript em JavaScript e iniciar o aplicativo:
 
-   ```bash
-   node APP.js
-   ```
+  - Para usar o `NODE`, inicie o bot com o seguinte comando:
+    ```bash
+    npm start
+    ```
+
+    - Para usar o `NODEMON`, inicie o bot com o seguinte comando:
+    ```bash
+    npm test
+    ```
 
    - Após iniciar o servidor, acesse o projeto no navegador utilizando o seguinte URL: [http://localhost:8000/](http://localhost:8000/).
 
