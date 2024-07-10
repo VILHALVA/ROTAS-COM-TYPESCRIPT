@@ -31,16 +31,7 @@
 
    - Este comando instalará todas as dependências listadas no arquivo `package.json` do seu projeto. 
 
-2. **Compilação TypeScript**: 
-   - No CMD e execute o seguinte comando para compilar o TypeScript em JavaScript:
-
-   ```bash
-   npx tsc APP.ts
-   ```
-
-   - Isso irá gerar um arquivo JavaScript correspondente com o mesmo nome (por exemplo, `APP.js`) no mesmo diretório.
-
-3. **Subindo o servidor:**
+2. **Subindo o servidor:**
    Agora execute o seguinte comando para compilar o TypeScript em JavaScript e iniciar o aplicativo:
 
   - Para usar o `NODE`, inicie o bot com o seguinte comando:
